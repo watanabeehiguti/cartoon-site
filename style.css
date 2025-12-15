@@ -1,0 +1,174 @@
+
+body{background-image: url(fundo.jpg);
+    font-family: "Archivo Black", "Verdana", cursive;
+    margin: 0;
+    padding: 0;
+background-attachment: fixed;
+background-size: cover;
+font-family: "Archivo Black", "Verdana", cursive;}
+
+.banner {
+    width: 100%;
+    height: 170;
+    background: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* garante que nada vaze */
+}
+
+.banner img {
+    display: block;
+    width: 100%;      /* ocupa toda a largura */
+    max-width: 1300px; /* limite igual ao protótipo */
+    height: 100;
+    margin: 0 auto;   /* centraliza caso a tela seja maior */
+    object-fit: cover;
+}
+
+/* ================================
+   MENU DE IDIOMAS (PT / EN / ES / FR)
+=================================== */
+.lang-buttons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.lang-buttons button {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    background: #ddd;
+    cursor: pointer;
+}
+
+
+/* ================================
+   MENU DAS GERAÇÕES
+   (botões decorados iguais ao protótipo)
+=================================== */
+.gen-menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gen-menu img {
+    width: 170px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.gen-menu img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* ================================
+   SESSÃO DE CONTEÚDO
+=================================== */
+.content-box {
+    margin: 25px;
+    padding: 20px;
+    background: white;
+    border: 3px dotted black;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex: 1;                /* ocupa mais espaço */
+}
+.video {
+    flex: 1;                /* divide espaço com o texto (pode ajustar) */
+}
+
+.img-checkerboard {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-powerhouse {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-cncity {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-noods {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-toonix {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-toonixtoys {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-checkit {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-dimensional {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-pastel {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.lista-checkit {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.lista-checkit li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+/* ================================
+   RODAPÉ
+=================================== */
+footer {
+    margin-top: 30px;      /* espaço entre a caixa branca e o footer */
+    background: #000000b2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
